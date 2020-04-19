@@ -15949,10 +15949,6 @@ html.w-mod-js *[data-ix="modal-hidden"] {
     display: block;
   }
   .navigation-items {
-    display: none;
-    width: 100%;
-    height: 240em;
-    margin-top: 96px;
     padding-top: 20px;
     padding-bottom: 20px;
     -webkit-box-flex: 0;
