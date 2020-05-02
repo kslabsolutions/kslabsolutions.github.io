@@ -1,0 +1,439 @@
+/***Need to overwrite in newcommon.css file***/
+.whitebox {
+	border:0;
+}
+.footerBottom{margin: 55px 0px 15px 0px !important;}
+.footerBottom p{font-size:12px;}
+@media only screen and (max-width:1680px){
+/*.logoMiddle{margin:45px 0 0 !important;}*/
+}
+.box h4{
+font-weight: 600;
+line-height: 24px;
+text-align: center;
+}
+/***Need to overwrite in newcommon.css file end***/
+/***Add provide page***/
+.block-content-box{
+width:100% !important;
+box-shadow: 0 0px 15px rgba(0,0,0,0.5);
+min-height: 350px;
+padding: 30px 20px;
+border-radius: 5px;
+height: auto;
+text-align:left;
+}
+
+/***apply search page***/
+.applysearch-box{
+	border-radius: 8px;
+	height: auto;
+}
+.applysearch-box .form-group{ margin-bottom:0px !important;}
+.applysearch-box input{ margin-bottom:0px !important;}
+.ui-autocomplete li{padding:5px 10px 5px 10px; cursor:pointer; text-align:left; color:#3F576C; }
+.ui-autocomplete {
+	position:absolute !important;
+    max-height: 200px;
+    border: 1px solid #66afe9;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1000 !important;
+    border-radius: 5px;
+	background:#ffffff;
+	font-size: 14px;
+}
+.ui-menu-item:hover{
+  background: rgba(155,184,213,0.15);
+  border-radius:3px;
+}
+.div-section{
+	padding-bottom: 0px;
+}
+.div-section input,.div-section select{
+    height: 40px;
+    font-weight: 400;
+    border-radius: 30px;
+    background: rgba(155,184,213,0.15);
+    border: none;
+    color: #999;
+    box-shadow: none;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.btn-Main{text-align:center;margin:30px 0;width:100%;}
+
+.blueBtn{border-radius: 20px;background:#3caaff;border:none;padding:6px 40px;display:inline-block;font-size:15px;color:#fff;}
+
+.lightBlueBtn{border-radius: 20px;background:#fff;padding:6px 40px;display:inline-block;font-size:15px;color:#304253;font-weight:500;}
+.lightBlueBtn:focus{color:#000;}
+.applysearch-box h4#noresults{ color:#3F576C;}
+.v-center{display: -ms-flexbox;display: -webkit-flex;display: flex;-ms-flex-align: center;-webkit-align-items: center;-webkit-box-align: center;align-items: center;text-align:center;height:100%;}
+.h-center{width:100%;text-align:center;}
+
+.block-content-box label{
+	color:#5A7DA1;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 0.46px;
+	line-height: 18px;
+}
+.form-control::-moz-placeholder {height: 20px;	width: 236px;	opacity: 0.5;	color: #5A7DA1;	font-family: "Avenir Next LT Pro";	font-size: 13px;	font-weight: 500;	line-height: 20px;}
+.form-control:-ms-input-placeholder {height: 20px;	width: 236px;	opacity: 0.5;	color: #5A7DA1;	font-family: "Avenir Next LT Pro";	font-size: 13px;	font-weight: 500;	line-height: 20px;}
+.form-control::-webkit-input-placeholder {height: 20px;	width: 236px;	opacity: 0.5;	color: #5A7DA1;	font-family: "Avenir Next LT Pro";	font-size: 13px;	font-weight: 500;	line-height: 20px;}
+.applysearch-box h4{margin: 0px 0px 20px 0px;}
+#searchListing{ min-height: 20px;height: auto; padding:20px 10px 10px 10px;}
+#searchListing ul{  width: 100%; margin: 5px 0px 5px 0px; text-align:left;}
+#searchListing ul li{ display: inline-block;margin-left: 20px; padding: 0px; width: 180px;}
+#searchListing ul li:last-child { width: 45px; color:#63944C;}
+#searchListing ul li.practicename{ color:#3F576C; font-size:16px; font-weight:600;}
+.search-results {color: #3F576C;font-size: 20px;font-weight: bold;line-height: 24px;text-align: center;font-family: Lato;}
+.practicename{ color:#3F576C; font-size:15px;font-weight:600;margin:5px 0px 5px 0px;line-height: 20px; }
+.practicelocation{color: #5A7DA1;font-size: 16px;font-weight: 500;line-height: 20px;}
+.your-provider-s-info {	height: 24px; color: #3F576C; font-family: Lato;	font-size: 20px;	font-weight: bold;	line-height: 24px;	text-align: center;}
+.noprovider{padding:10px 0px 10px 0px;}
+.noprovider a{color:#0F8BE1; font-weight: 500; text-decoration:none;}
+label.error{color:red; text-transform: none; font-size: 12px;float:left; /*padding: 3px;*/}
+.greentext{color:#63944C;}
+#success-tick{ margin-top:50px;}
+.mt1{margin-top:10px;}
+.mt2{margin-top:20px;}
+.mt3{margin-top:30px;}
+#enterinfo{   margin: 10px 0px 30px 0px;}
+#searchpractice{ padding:10px 35px }
+.mb-2{margin-bottom: 20px;}
+.mb-3{margin-bottom: 30px;}
+.mb-4{margin-bottom: 40px;}
+#financedata hr{ margin-top:0px;}
+.anticipated-pg{color: #5A7DA1;	font-size: 12px;	font-weight: 500;	line-height: 18px; padding-bottom:30px;}
+.incomehint{font-size: 12px;padding-left: 20px;float: left;margin-top: -5px; margin-bottom:10px;}
+.incomehint span{color:#63944C;}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 14px;
+  border-radius: 5px;
+  background: #63944C;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 24px;
+  height: 14px;
+  border-radius: 5px;
+  background: #63944C;
+  cursor: pointer;
+}
+
+.slidecontainer input#anticipateranage {
+    height: 10px;
+}
+.silder-br{
+    padding: 4px;
+    border: 1px solid rgba(111,137,153,0.3);
+    border-radius: 28px;
+	}
+
+.cal-pay{
+    background: #42B2FF;
+    height: 32px;
+    text-align: center;
+    color: #ffff;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 25px;
+    margin-top: 20px;
+}
+
+#fir-amt{
+float:left;
+}
+
+#last-amt{
+float:right;
+}
+.pay-val{
+/*height:80px;min-height:80px;*/
+font-weight:bold;
+padding:10px 0px;
+font-size:18px;
+}
+.userinformation h4{margin: 0 0 20px;}
+.ajaxloadermodal .modal-dialog{margin-top: 12%;width: 100% !important;}
+#ajaxLoaderPlaid{position:fixed;top:50%;left:50%;width:15%;	transform: translate(-50%, -50%);}
+.box-login-lg{
+    height: auto;
+    width: 100%;
+}
+.chn-color{
+    color: #337ab7;
+font-size: 14px;
+font-weight: 600;
+text-align: center;
+}
+.pfi-error-404{min-height: 130px;}
+.pfi-new-app{
+color: #63944C;
+font-size: 14px;
+font-weight: 500;
+}
+#submitconfirmation .modal-dialog{width: 30%;}
+#submitconfirmation a{color:#5A7DA1; text-decoration:none;}
+#submitconfirmation .modal-content{    border-bottom: 6px solid #63944C;}
+.modal#submitconfirmation {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal#submitconfirmation:before {
+  content: '';
+  display: inline-block;
+  height: 25%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+#submitconfirmation .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+#noobligation{color:#FFFFFF;}
+.secureoffer{ font-family:Lato;}
+.secureoffer span{ font-weight:600;}
+.selectedoffer{width:60%;text-align: left; margin-bottom:10px;}
+.selectedoffer label{color:#5A7DA1;}
+.selectedoffer .firstcol{border-right:1px solid #E3EBF3; padding:15px 15px 15px 20px;}
+.selectedoffer .secondcol{padding:15px 15px 15px 30px;}
+.selectedoffer .centerrow{
+	border-radius: 6px;
+	background: linear-gradient(0deg, #35A3FF 0%, #62D8FF 100%);
+	box-shadow: 0 5px 14px 0 rgba(27,43,59,0.24);
+	margin-left: -45px;
+    margin-right: -45px;
+	padding: 0px;
+}
+.selectedoffer .centerrow .firstcol{border-right-color: rgba(43,107,171,0.31)}
+.selectedoffer .centerrow .firstcol{padding-left: 50px;}
+.selectedoffer .selectedofferinner{ text-align: left; position: relative;}
+.selectedoffer .centerrow .centerlabel{  font-size: 16px; color: #fff; font-weight: normal;}
+.selectedoffer .centerrow .centervalue{ font-size: 32px; color: #fff; font-weight: 600; font-family:Lato;}
+.selectedoffer .emailprintoption{    border-top: 1px solid #E3EBF3;padding-bottom: 0px;}
+.selectedoffer .v-center{ position:relative}
+.pficircleicon{position: absolute;right:-35px;top: -35px;}
+.pficircleicon img{ width:36px; height:36px;}
+.offerbottom{ color:#5A7DA1; margin-bottom:20px; font-size:12px}
+.offerbottom .bluetxt{ color:#0F8BE1;}
+.offerbottom .secondinfo{ color:#5A7DA1;font-weight: 600;}
+.emailprintoption .borderBtn{padding: 5px 30px;}
+.emailprintoption a{color: #63944C !important;}
+.emailprintoption img{width:16px; height:16px; float:left; margin-right:3px;}
+.hintmessage {
+	position: absolute;
+    right: -300px;
+    width: 406px;
+    font-size: 11px;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: flex-end; /* Safari 7.0+ */
+	display: flex;
+	align-items: flex-end;
+    top: 190px;
+}
+.hintmessage .firsthint{
+    width: 170px;
+	color:#FFFFFF;
+	float:left;
+    border-radius: 5px;
+	height: auto;font-size: 10px; padding:0px 10px 10px 10px;background: linear-gradient(0deg, #21CB91 0%, #3DE9D0 100%);	box-shadow: 0 8px 19px 0 rgba(22,191,129,0.44);
+}
+.hintmessage .firsthint .zerotxt span{ font-size:40px;}
+.hintmessage .firsthint .zerotxt span sup{ font-size:20px;}
+.hintmessage .secondhint{
+    width: 185px;
+    float: left;
+    padding-left: 10px;
+}
+.hintmessage .firsthint:after, .hintmessage .firsthint:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.hintmessage .firsthint:after {
+	border-color: rgba(33, 203, 145, 0);
+	border-right-color: #33deb9;
+	border-width: 15px;
+	margin-top: -15px;
+}
+.hintmessage .firsthint:before {
+	border-color: rgba(NaN, 33, 203, 0);
+	border-right-color: #33deb9;
+	border-width: 16px;
+	margin-top: -16px;
+}
+
+.pfi-loanfailure{
+   height:auto;
+}
+.promissorypage{ width: 100%;height: auto;margin: 0px 0px 30px 0px;float: left;}
+.promissorypage .prominfo{color:#3F576C; font-weight:500; font-size:13px;}
+.promissorypage .promheading{ font-weight:600; font-size:15px;}
+.promissorypage .checkbox label:before{ top:7px !important; left: 5px !important; margin:0px;}
+
+.whitebox .commonimg img{display:inline-block;margin-bottom:20px;width:300px;}
+.estimateboxdiv{border:solid 1px #CBDAE9;background-color: rgba(203,218,233,0.2); height:60px; padding: 5px; margin: 5px;}
+.monthlypayamountTxt{color: #0F8BE1;font-family: Lato;font-size: 20px;	font-weight: 600;	line-height: 24px;padding: 5px 0px;}
+.monthlytermTxt{font-size:10px;color:#3F576C;font-weight: 600;line-height:14px;}
+.estimate-mbt-3{
+padding:2px;
+}
+.financepagemodal .modal-dialog{width: 35%;}
+
+/* Media Queries */
+@media only screen and (max-width:1920px){
+.hintmessage{right:-360px;}
+}
+@media only screen and (max-width:1366px){
+.hintmessage{right:-210px;width:330px;}
+.hintmessage .secondhint{width:180px;}
+}
+@media only screen and (max-width:1280px){
+.hintmessage{right:-236px;}
+}
+@media only screen and (max-width:1200px){
+.hintmessage{display:block;}
+.hintmessage .secondhint{float:none;}
+.hintmessage .firsthint{float:none;}
+.hintmessage .firsthint:after, .hintmessage .firsthint:before{top:30%;}
+}
+@media only screen and (max-width:991px){
+.hintmessage{right:-280px;}
+}
+@media only screen and (max-width:900px){
+.hintmessage{right:-170px;width:200px;}
+.financepagemodal .modal-dialog{width: 70%;}
+}
+@media only screen and (max-width:823px){
+.hintmessage{width:150px;right:-90px;}
+.hintmessage .secondhint{}
+.hintmessage .firsthint{}
+}
+@media only screen and (max-width:800px){
+.hintmessage{width:130px;right:-60px;}
+.hintmessage .secondhint{width:100%;}
+.hintmessage .firsthint:after, .hintmessage .firsthint:before{top:25%;}
+.hintmessage .firsthint{width:100%;}
+}
+@media only screen and (max-width : 767px) {
+	.applysearch-box{ width:100% !important;}
+	.selectedoffer{width:90%;}
+	.monthlypayamountTxt{ font-size: 14px; }
+	.estimateboxdiv{ width:100%;}
+	.monthlytermTxt{font-size:9px;}
+  #selectofferform .nopadding {padding: 10px !important;}
+  #submitconfirmation .modal-dialog{width: 95%;}
+  .prequalifiedTxt{font-size: 10px;}
+
+  .hintmessage{position:relative;width:40%;left:auto;right:auto;bottom:auto;top:auto;margin:0 auto;}
+  .hintmessage .firsthint:after, .hintmessage .firsthint:before{top:-12px;left:55%;}
+  .hintmessage .secondhint{margin-top:15px;}
+  .hintmessage .firsthint{width:90%;margin:auto;}
+  .hintmessage .firsthint:after {border-color: rgba(136, 183, 213, 0);border-bottom-color: #3DE9D0;border-width: 15px;margin-left: -30px;}
+  .hintmessage .firsthint:before {border-color: rgba(194, 225, 245, 0);border-bottom-color: #3DE9D0;border-width: 15px;margin-left: -30px;}
+	#mobilesaveicon{display: block !important; width: 50px !important; margin-left: -25px !important;}
+  .tooltiptext {display: none;}
+}
+
+@media only screen and (max-width : 480px) {
+  .hintmessage .firsthint{width:100%;}
+  .hintmessage{width:80%;}
+  .btnMain .btn {
+    margin: 0 0px 15px;
+  }
+  .selectedoffer .centerrow .centervalue {
+    font-size: 24px;
+	}
+	.financepagemodal .modal-dialog{width: 90%;}
+}
+
+.btnMain .ActivefillGreenBtn{background:#63944C;;color:#fff;}
+.lightgreen{color:#61F5CA;}
+
+.financepagemodal a{color:#5A7DA1; text-decoration:none;}
+.financepagemodal .modal-content{    border-bottom: 6px solid #63944C;}
+.modal.financepagemodal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.financepagemodal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.financepagemodal .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.financepagemodal .btn-Main{margin:10px 0 30px;}
+#depositaccountcontainer .table{ margin:0px}
+#depositaccountcontainer .panel-title{ margin: 0px; color: #42B2FF;  font-weight: 500;  font-size: 15px;  text-transform: capitalize;letter-spacing: 0px; font-family:'Avenir Next LT Pro';}
+#depositaccountcontainer .panel-group{padding: 0px 15px 0px 15px; margin:0;}
+#depositaccountcontainer .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group{border:0px;     padding-top: 0px;}
+#depositaccountcontainer table tr td,#depositaccountcontainer table tr th{ border:1px solid #E3EBF3 !important;}
+.blueBtn:hover{background: #3caaff !important; color:#FFFFFF !important;}
+.deposit_account_details p{color: #3F576C;font-size: 15px;font-weight: 600;line-height: 20px;}
+#showdeposit,#showaccount{border: 1px solid #9BB8D5; border-radius: 20px;color: #5A7DA1;	font-size: 11px;font-weight: 500; padding:5px 15px 5px 15px; cursor:pointer; text-decoration:none;}
+.promissorybankinfo{color: #3F576C;font-size:14px;font-weight:bold;}
+
+/*#stamp{border-bottom:1px solid;}*/
+
+#signature-pad{
+    border:1px solid;
+    border-radius: 7px;
+    min-height: 60px;
+    width: 100%;
+    max-height: 100px;
+}
+#mobilesaveicon{
+  display: none;
+}
+
+#header .header-logo-container {
+    float: left;
+    padding: 23px 15px;
+}
+#header .header-logo-container img {
+    width: auto;
+    height: 34px;
+}

@@ -1,0 +1,179 @@
+
+/*Header Start*/
+.pfiLogin{color: #1ABA8C !important;}
+a#chatsupportdiv button {color: #42b2ff;}
+
+/*Header End*/
+
+
+/*Documentary  Start*/
+.documentary { font-family: 'Avenir Next LT Pro'; font-size: 14px; color: #3F576C; }
+.documentary .whitebox { font-family: 'Avenir Next LT Pro'; font-size: 14px; color: #3F576C; text-align: left; }
+.documentary .whitebox p { padding: 5px 0; }
+.documentary .whitebox h5, .documentary .whitebox p strong { font-family: 'Avenir Next LT Pro'; line-height: 30px; font-weight: 700; color: #3F576C; }
+.documentary .whitebox ul, .documentary .whitebox li { list-style: inherit; margin-left: 15px; color: #3F576C; }
+/*Documentary End */
+
+/*CHECK BOX DESIGN START*/
+.list-of-goroups{padding:0;}
+.list-of-goroups > li{display:block;padding:10px 0 0;}
+.checkbox{position:relative;margin:0;}
+.checkbox input[type="checkbox"]{visibility:hidden;}
+.checkbox input[type=checkbox]:checked + label:after {content: '\f00c'; font-family: 'FontAwesome';font-size: 12px;color: #3f576c;font-weight: 300;position: absolute;left: 7px;top: 7px;}
+.checkbox label{position:relative;display:block;vertical-align:middle;}
+/*.checkbox label:before { content: ''; width: 16px; height: 16px;display: inline-block;border: 1px solid #3f576c;position: absolute;top: 0px;left: 0px;margin-top: -7px;}*/
+.checkbox label:before { content: ''; width: 16px; height: 16px;display: inline-block;border: 1px solid #3f576c;position: absolute;top: 0px;left: 0px;}
+.checkbox label span{padding-left:10px;display:inline-block;font-size:13px;color:#3f576c;letter-spacing: normal;}
+.checkbox label span a {color: #42b2ff; font-weight: 500;}
+.checkbox label span a:after{clear: both;}
+/*.checkbox input[type=checkbox]:checked + label:after{content:'\f00c';font-family: 'FontAwesome';font-size:14px;color:#3f576c;font-weight:300;position:absolute;left:6px;top:-3px;}*/
+.checkbox input[type=checkbox]:checked + label:after{content:'\f00c';font-family: 'FontAwesome';font-size:14px;color:#3f576c;font-weight:300;position:absolute;left:1px;top:-2px;}
+.btn-Main{text-align:center;margin:30px 0;width:100%;}
+.block-content-consent {margin-bottom: 20px;}
+.consent-ul {border: 1px solid rgba(90,125,161,0.09);margin-bottom: 3%; padding-bottom: 3%;border-style: inherit;}
+.error {  color: #FF0000;}
+#checkError,#consentError,#firstnameError,#lastnameError,#socialError{ float:left; display:none; }
+.sublist-check {left: 4%;}
+.block-content-box p {line-height: 18px; padding-left: 10px;}
+#termsform p {padding-left: 10px;}
+
+/*.btn-default:hover { color: #FFFFFF !important; background-color: #3caaff;}*/
+.pfi-model h3{padding: 10px 0; color: #42b2ff;}
+.modal-content .close {  color: #3f576c; margin: 1%; opacity: 1;}
+
+.lightBlueBtn{border: 1px solid #9cb8d2;}
+/*CHECK BOX DESIGN END*/
+
+/********* APPLY START* START **********/
+.privacynotice{background-color: #3F576C;position: fixed;left: 0;bottom: 0;color: #FFFFFF;padding: 25px; font-size:13px;font-family: 'Avenir Next LT Pro';}
+.privacynotice h5{color: #63944C;padding-bottom: 10px;}
+.privacycloseicon{top: 25px;padding: 0; cursor: pointer;}
+/**********APPLY START* END************/
+.arrowicon{font-size:24px; color:#63944C;}
+
+/*USERINFORMATION FULL START*/
+/*.ui-widget-header {background: #32c1df none repeat scroll 0 0;}*/
+/*USERINFORMATION FULL END*/
+
+/*BUTTON && TEXT COLOR TYPE */
+.light-Grey-Btn{background-color: #2EB3B9;border-radius: 18px;color: #FFFFFF;border: 1px solid #2EB3B9;}
+.prequalifiedTxt{margin-bottom: 25px;}
+.light-Grey-Btn:hover{background-color: #2EB3B9;color: #FFFFFF;border: 1px solid #2EB3B9;}
+.light-Grey-Btn:active{background-color: #2EB3B9;color: #FFFFFF;}
+.light-Grey-Btn:visited{background-color: #2EB3B9;}
+.light-Grey-Btn:focus, .light-Grey-Btn:active:focus, .light-Grey-Btn.active:focus, .light-Grey-Btn.focus, .light-Grey-Btn:active.focus, .light-Grey-Btn.active.focus{background-color: #2EB3B9;color: #FFFFFF;border: 1px solid #2EB3B9;}
+
+.grey-Btn{background-color: #9BB8D5;border-radius: 18px;color: #FFFFFF;border: 1px solid #9BB8D5;padding: 0 10px;}
+.grey-Btn:hover{background-color: #9BB8D5;color: #FFFFFF;}
+.grey-Btn:active{background-color: #9BB8D5;color: #FFFFFF;}
+.grey-Btn:focus{background-color: #9BB8D5;}
+.grey-Btn:visited{background-color: #9BB8D5;}
+.grey-Btn:focus, .grey-Btn:active:focus, .grey-Btn.active:focus, .grey-Btn.focus, .grey-Btn:active.focus, .grey-Btn.active.focus:visited{background-color: #9BB8D5;color: #FFFFFF;border: 1px solid #9BB8D5;}
+#termsform .blueBtn{background: #3caaff;color: #FFFFFF;}
+#userinfofulldata .ActivefillBtn{background: #3caaff;color: #FFFFFF;}
+#financedata .ActivefillBtn{background: #3caaff;color: #FFFFFF;}
+#selectofferform .blueBtn{background: #F2F7FD;color: #5A7DA1;border: 1px solid #9BB8D5;	border-radius: 20px; font-size:13px;}
+
+.middleBox .btn:focus, .middleBox .btn:active:focus{background:#63944C;}
+.gray-Text-06 {color: #5A7DA1;font-weight: 600;}
+.grayText05 {color: #9BB8D5;}
+.green-text {color: #63944C;}
+
+
+.pfi-left{text-align: left;}
+.pfi-top-01 {padding-top: 5px}
+.pfi-top-02 {padding-top: 10px}
+.pfi-top-03 {padding-top: 15px}
+.pfi-right-01 {padding-right: 5px}
+.pfi-right-02 {padding-right: 10px}
+.pfi-right-03 {padding-right: 15px}
+.pfi-left-01 {padding-left: 5px;}
+.pfi-left-02 {padding-left: 10px;}
+.pfi-left-03 {padding-left: 15px;}
+.pfi-bottom-01 {padding-bottom: 5px;}
+.pfi-bottom-02 {padding-bottom: 10px;}
+.pfi-bottom-03 {padding-bottom: 15px;position: absolute;right: 10px; top: 10px;}
+
+.pfi-mrg-top-01 {margin-top: 5px;}
+.pfi-mrg-top-02 {margin-top: 10px;}
+.pfi-mrg-top-03 {margin-top: 15px;}
+.pfi-mrg-bottom-01 {margin-bottom: 5px;}
+.pfi-mrg-bottom-02 {margin-bottom: 10px;}
+.pfi-mrg-bottom-03 {margin-bottom: 15px;}
+.pfi-mrg-left-01 {margin-left: 5px;}
+.pfi-mrg-left-01{margin-left: 10px;}
+.pfi-mrg-left-01 {margin-left: 15px;}
+.pfi-mrg-right-01 {margin-right: 5px;}
+.pfi-mrg-right-02 {margin-right: 10px;}
+.pfi-mrg-right-03 {margin-right: 15px;}
+/*APPLICATION OFFER */
+.app-Logo-Term{position: absolute;z-index:100;top:-20px;left: 35%;}
+/*.app-Logo{height: 48px;	width: 80px;border-radius: 24px;background: linear-gradient(0deg, #5F7580 0%, #8098A7 100%);box-shadow: 0 2px 4px 0 rgba(177,177,177,0.39);}
+.app-Logo img{width: 100%;padding:5px 10px;}
+.app-Logo-02{height: 35px;	width: 70px;border-radius: 24px;background: linear-gradient(0deg, #5F7580 0%, #8098A7 100%);box-shadow: 0 2px 4px 0 rgba(177,177,177,0.39);}*/
+/*.app-Logo-02 img{width: 100%;}*/
+
+#loandetaamount {font-size: 30px;color: #63944C;}
+/*#loandetaamount sup {top:-1em; right:-0.5em; font-size: 24px;color: #63944C;}
+#loandetaamount sub {bottom: 0; font-size: 18px; left: -0.2em;color: #9BB8D5;}*/
+#loandetaamount sup {top:-0.5em; right:-0.3em; font-size: 24px;color: #63944C;}
+#loandetaamount sub {bottom: 0; font-size: 18px; left: 0em;}
+.zerointerest {color: #9BB8D5;font-weight: 500;}
+.details{float: right;font-size: 10px;}
+.detail-Box-xs{min-height: 225px; padding-bottom: 0; margin-bottom: 5px; border-radius: 5px 0px 0px 5px; text-align:center;}
+/*.detail-Box-xs:hover{box-sizing: border-box;height: 278px;border: 3px solid #FFD900;border-radius: 6px;background-color: #FFFFFF;box-shadow: inset 0 0 23px 0 #FFFFFF, 0 6px 12px 0 rgba(155,184,213,0.48);}*/
+.detail-Box-sm{min-height: 225px; padding-bottom: 0; margin-bottom: 5px; text-align:center;}
+/*.detail-Box-sm:hover{box-sizing: border-box;height: 278px;border: 3px solid #FFD900;border-radius: 6px;background-color: #FFFFFF;box-shadow: inset 0 0 23px 0 #FFFFFF, 0 6px 12px 0 rgba(155,184,213,0.48);}*/
+.detail-Box-md{min-height: 225px; padding-bottom: 0; margin-bottom: 5px; text-align:center;}
+/*.detail-Box-md:hover{box-sizing: border-box;height: 278px;border: 3px solid #FFD900;border-radius: 6px;background-color: #FFFFFF;box-shadow: inset 0 0 23px 0 #FFFFFF, 0 6px 12px 0 rgba(155,184,213,0.48);}*/
+.detail-Box-lg{min-height: 225px; padding-bottom: 0; margin-bottom: 5px; text-align:center;}
+/*.detail-Box-lg:hover{box-sizing: border-box;height: 278px;border: 3px solid #FFD900;border-radius: 6px;background-color: #FFFFFF;box-shadow: inset 0 0 23px 0 #FFFFFF, 0 6px 12px 0 rgba(155,184,213,0.48);}*/
+.detail-Box-xl{min-height: 225px; padding-bottom: 0; margin-bottom: 5px; ; text-align:center;/*top: 50px;*/}
+/*.detail-Box-xl h1 {font-size: 24px !important; top: 25px; padding: 20px 0;}
+.detail-Box-xl #loandetaamount sup {font-size: 16px;right: -0.4em;top: -0.7em;}
+.detail-Box-xl #loandetaamount sub {font-size: 16px;left: 0em;}*/
+/*.detail-Box-xl:hover{box-sizing: border-box;height: 300px;border: 3px solid #FFD900;border-radius: 6px;background-color: #FFFFFF;box-shadow: inset 0 0 23px 0 #FFFFFF, 0 6px 12px 0 rgba(155,184,213,0.48);}*/
+.fullloanterms p {padding: 0; font-size: 12px;}
+
+.app-text-03 {font-size: 10px; padding: 5px 0px 0px 13px; float: left;}
+.app-text-04 {font-size: 12px;}
+.offerMain{padding:0;position:relative;}
+.logoMiddle img{width:400px;}
+
+.offerMain .whitebox{border:0 !important;}
+.offerMain .selectedBox{z-index: 99;border: 3px solid #FFD900 !important;height:275px;margin-top: 5px;     padding-top: 50px;}
+.offerMain .whiteBox .blueBtn{background:#D8E5F2;height:32px;text-align:center;color:#AABFD4;font-size:13px;font-weight:500;border:none;border-radius: 20px;padding:5px 50px;}
+.offerMain .selectedBox .ActivefillBtn{background:#42B2FF;color:#fff;}
+.selectedBox .blueBtn{background: #3caaff !important;color: #FFFFFF !important;}
+.offerboxbg{ background-color: #F2F7FD;}
+
+
+/*Contact us page */
+
+.contact-bg{/*background: url("../images/checking-mobile.png") no-repeat;*/ padding: 10% 0;}
+.contact-icon1{font-size:36px; transform: translate(0%, 60%); text-align: center; color: #FFFFFF;}
+.circleBtn{background: rgba(83,150,65,0.85) none repeat scroll 0 0; border: medium none; border-radius: 90px !important; display: inline-block; height: 80px; left: 0; padding: 0; right: 0; width: 80px;}
+.contactText h1, h2, h3, h4, h5, h6 p {color: #395789;margin: 0%}
+.contactText strong{color: #8093a5;}
+.contactText ul li { list-style: outside !important; color: #8093a5; margin-left: 40px;}
+.contactText table, tr, td, th {padding: 10px;}
+.contactText table{border-collapse: collapse; }
+.mTB-3{margin:5% 0;}
+
+/* Lambda css */
+
+.withdraw_application button{
+    margin-top: -20px;
+    font-weight:normal;
+    font-style:normal; 
+    color:#4386AC;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Avenir Next LT Pro';
+    background: none;
+    border: 0px solid transparent;
+    display: inline-block
+}
+
+
+
