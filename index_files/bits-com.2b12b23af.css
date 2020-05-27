@@ -13959,8 +13959,7 @@ blockquote {
 .laughing-student {
   width: 66%;
   height: 520px;
-  margin-right: -100px;
-  background-image: url("https://assets-global.website-files.com/5cd091cfb5499f22bdf72905/5e16955d84798042fed06890_student-laughing.jpg");
+  background-image: url("../images/curriculum_designed.jpg");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -30047,7 +30046,6 @@ html.w-mod-js *[data-ix="modal-hidden"] {
 .laughing-student {
   width: 66%;
   height: 520px;
-  margin-right: -100px;
   background-image: url("../images/curriculum_designed.jpg");
   background-position: 50% 50%;
   background-size: contain;
