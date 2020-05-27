@@ -30051,9 +30051,7 @@ html.w-mod-js *[data-ix="modal-hidden"] {
 }
 
 .girl-with-dog {
-  width: 60%;
-  height: 500px;
-  margin-right: -60px;
+  width: 95%;
   background-image: url("../images/5e275e4d548764e25620d7a8_student-dog.jpg");
   background-position: 100% 50%;
   background-size: contain;
