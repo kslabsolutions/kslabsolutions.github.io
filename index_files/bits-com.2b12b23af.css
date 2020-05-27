@@ -14051,9 +14051,7 @@ blockquote {
 
 .student-working {
   width: 60%;
-  height: 550px;
-  margin-right: -50px;
-  background-image: url("https://assets-global.website-files.com/5cd091cfb5499f22bdf72905/5e16c0d1cb9d516ff0de3e01_support.jpg");
+  background-image:  url("../images/curriculum_career_support.jpg");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -30086,8 +30084,6 @@ html.w-mod-js *[data-ix="modal-hidden"] {
 
 .student-working {
   width: 60%;
-  height: 550px;
-  margin-right: -50px;
   background-image: url("../images/curriculum_career_support.jpg");
   background-position: 50% 50%;
   background-size: contain;
