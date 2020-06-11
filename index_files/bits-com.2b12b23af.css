@@ -17491,7 +17491,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 33.333%;
+  width: 50%;
   padding-top: 14px;
   padding-bottom: 8px;
   -webkit-box-orient: vertical;
